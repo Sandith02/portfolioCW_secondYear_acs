@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <a href="index.html" class="logo"><i class="fa-solid fa-house socials-icon"></i></a>
+            <div>
+                <ul class="nav-items">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#blogs">Blogs</a></li>
+                    <li><a href="index.html#newsletter">Newsletter</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="secondary-nav">
+            <a href="index.html" class="logo"><i class="fa-solid fa-house socials-icon"></i></a>
+            <div class="secondary-menu">
+                <div class="secondary-menu-icon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div>
+                    <ul class="menu-items">
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#blogs" onclick="toggleMenu()">Blogs</a></li>
+                        <li><a href="#newsletter" onclick="toggleMenu()">Newsletter</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="title">
+                <h6>Get in Touch</h6>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="3e5075b8-a471-460b-9099-9b8e6b47fe16">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="name" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your message" class="contact-inputs"></textarea>
+            <button class = "btn2" type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+        <div class="contact-right">
+            <img src="/assests/newsletter.png" class="background-pic" alt="background-pic">
+        </div>
+    </div>
+    <script>
+        function toggleMenu(){
+        const menu  = document.querySelector(".menu-items");
+        const icon  = document.querySelector(".secondary-menu-icon");
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+    }
+    </script>
+</body>
+</html>

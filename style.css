@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: "Poppins", sans-serif;
@@ -38,7 +39,7 @@ a:hover{
 }
 .logo{
     font-size: 1.3rem;
-    background: linear-gradient(to right, rgb(1, 33, 69) ,rgb(25, 146, 171));
+    background: black;
     background-clip: text;
     color: transparent;
 }
@@ -237,9 +238,19 @@ section{
     margin-bottom: 1rem;
 }
 #newsletter{
+    text-align: center;
     position: relative;
 }
-
+#newsletter h2 {
+    margin-top: 12rem;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.details {
+    padding: 2rem;
+    font-size: 16px;
+}
 #contact{
     display: flex;
     justify-content:center ;
@@ -272,6 +283,56 @@ footer{
 }
 footer p{
     text-align: center;
+}
+.contact-container{
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left h6{
+    font-weight: 500;
+}
+.background-pic{
+    position: relative;
+    height: 400px;
+    right: -10rem;
+}
+hr{
+    border: none;
+    width: 100px;
+    height: 4px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, rgb(184, 0, 126) ,rgb(19, 177, 208))
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    background: rgb(254, 254, 254);
+    box-shadow: 0px 1px 10px rgba(96, 96, 96, 0.1);
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid rgb(184, 0, 126) ;
+}
+.contact-inputs::placeholder{
+    color: rgb(183, 183, 183);
 }
 @media screen and (max-width: 1200px){
     #nav{
