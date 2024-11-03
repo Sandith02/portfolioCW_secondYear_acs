@@ -334,6 +334,95 @@ hr{
 .contact-inputs::placeholder{
     color: rgb(183, 183, 183);
 }
+
+#blogPage{
+    height: 80vh;
+    text-align: center;
+}
+.blogPage_title{
+    margin-top: 4rem;
+    font-size: 12rem;
+    opacity: 0; 
+    transform: translateY(-100%);
+    animation: slideDown 3s ease forwards; 
+}
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+.blogPage_sub{
+    margin-bottom: 6rem;
+    font-weight: 350;
+    font-size: 1rem;
+    transform: translateY(-100%);
+    animation: slideDown 8s ease forwards; 
+}
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+.blogPage_diveBtn{
+    margin-top: 2rem;
+    transform: translateY(-100%);
+    animation: slideUp 4s ease forwards; 
+}
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+#blogOne{
+    position: relative;
+    height: 110vh;
+}
+.blogPage_details_title{
+    background: linear-gradient(to right, rgb(184, 0, 126) ,rgb(19, 177, 208));
+    background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.blogPage_details_subtitles{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.blogPage_details{
+    list-style: none;
+    margin-top: 0.3rem;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+#blogTwo{
+    position: relative;
+}
+#blogThree{
+    position: relative;
+}
+.footer_secondary{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
 @media screen and (max-width: 1200px){
     #nav{
         display: none;
