@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandith Sithmaka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+    <nav id="nav">
+        <div class="logo">SANDITH SITHMAKA </div>
+        <div>
+            <ul class="nav-items">
+                <li><a href="#about">About</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="secondary-nav">
+        <div class="logo">Sandith Sithmaka</div> 
+        <div class="secondary-menu">
+            <div class="secondary-menu-icon" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div>
+                <ul class="menu-items">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#blogs" onclick="toggleMenu()">Blogs</a></li>
+                    <li><a href="#newsletter" onclick="toggleMenu()">Newsletter</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <section id="profile">
+        <div class="profile_pic_container">
+            <img src="./assests/MainPic.png" alt="Profile Picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1_">Hello, I'm</p>
+            <h1 class="title">Sandith Sithmaka</h1>
+            <p class="section_text_p2">Fullstack Developer</p>
+            <div class="btn-container">
+                <button class="btn1" onclick="window.open('./assests/resume.jpg')">Download CV</button>
+                <button class="btn2" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div class="socials-container">
+                <i class="fa-brands fa-github socials-icon" onclick="location.href='https://github.com/Sandith02'"></i>
+                <i class="fa-brands fa-linkedin socials-icon" onclick="location.href='https://www.linkedin.com/in/sandith-sithmaka-thenuwara-02b001261?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B04XznXw0RAiulWF4m67t9g%3D%3D'"></i>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="assests/about-me.png" 
+                alt="Profile Picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <i class="fa-solid fa-award"></i>
+                        <h3>Expereience</h3>
+                        <p>2+ years <br>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                        <p>BSc (Hons) Computer Science
+                        <br>University of Westminster</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I'm a computer science undergraduate at the University of Westminster, 
+                        passionate about building interactive, user-friendly web applications. 
+                        With a background in Java, CSS, HTML, JavaScript, React, and Node.js, 
+                        I’m always enthusiastic about learning new technologies and bringing 
+                        creative ideas to life. Let’s collaborate and make something impactful!!!</p>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angle-down icon-arrow"
+        onclick="location.href='./#blogs'"></i>
+    </section>
+    <section id="blogs">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Blogs</h1>
+        <div class="experience-detail-container">
+            <div class="about-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assests/blog01.jpeg" 
+                    alt="Project1"
+                    class="project-img"/>   
+                </div>
+                <h2 class="experience-sub-title project-title">Python Fundamentals</h2>
+                <h5 class="experience-sub-title project-title-details">Python has become one of 
+                    the most popular programming languages due to its simplicity, 
+                    readability, and versatility. Whether you're starting your coding 
+                    journey or switching from another language, understanding Python's 
+                    fundamentals is essential. 
+                </h5>
+                <div class="btn-container">
+                    <button 
+                    class="btn2 project-btn" 
+                    onclick="location.href='https://github.com/Sandith02'">
+                    Read More...
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assests/blog02.jpeg" 
+                    alt="Project1"
+                    class="project-img"/>   
+                </div>
+                <h2 class="experience-sub-title project-title">GitHub for Programmers</h2>
+                <h5 class="experience-sub-title project-title-details">GitHub has become an indispensable 
+                    tool for programmers, from solo developers to large-scale teams and in coperate world. 
+                    Understanding how to  navigate GitHub effectively can boost productivity, collaboration, 
+                    and version control in your coding projects.
+                </h5>
+                <div class="btn-container">
+                    <button 
+                    class="btn2 project-btn" 
+                    onclick="location.href='https://github.com/Sandith02'">
+                    Read More...
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assests/blog03.jpeg" 
+                    alt="Project1"
+                    class="project-img"/>   
+                </div>
+                <h2 class="experience-sub-title project-title">Be on the Radar </h2>
+                <h5 class="experience-sub-title project-title-details">In today’s competitive professional 
+                    landscape, being skilled and hardworking isn't always enough. Ensuring your contributions 
+                    are noticed and valued—being "on the radar"—is essential for career growth and recognition. 
+                    But how do you achieve that without appearing boastful? 
+                </h5>
+                <div class="btn-container">
+                    <button 
+                    class="btn2 project-btn" 
+                    onclick="location.href='https://github.com/Sandith02'">
+                    Read More...
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angle-down icon-arrow"
+        onclick="location.href='./#newsletter'"></i>
+    </section>
+    <section id="newsletter">
+        <p class="section_text_p1">Subscribe to My</p>
+        <h1 class="title">Newsletter</h1>
+
+        <i class="fa-solid fa-angle-down icon-arrow"
+        onclick="location.href='./#contact'"></i>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-main-container">
+            <div class="contact-info-container">
+                <i class="fa-brands fa-linkedin socials-icon"></i>
+                <p><a href="https://www.linkedin.com/in/sandith-sithmaka-thenuwara-02b001261/">Linkedln</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-solid fa-envelope-circle-check socials-icon"></i>
+                <p><a href="mailto:lhthenuwara@gmail.com">lhthenuwara@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-brands fa-square-x-twitter socials-icon"></i>
+                <p><a href="https://x.com/Sandith02?t=FQTT_GmJAfFruzNfx7Tqyw&s=08/">Sandith02</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-items-container">
+                <ul class="nav-items">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Sandith Sithmaka. All Right Reserved</p>
+    </footer>    
+    <script>
+        function toggleMenu(){
+        const menu  = document.querySelector(".menu-items");
+        const icon  = document.querySelector(".secondary-menu-icon");
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+    }
+    </script>
+</body>
+</html>
