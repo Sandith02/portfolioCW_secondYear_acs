@@ -393,10 +393,11 @@ hr{
     height: 110vh;
 }
 .blogPage_details_title{
+    text-align: center;
     background: linear-gradient(to right, rgb(184, 0, 126) ,rgb(19, 177, 208));
     background-clip: text;
     color: transparent;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 800;
 }
 .blogPage_details_subtitles{
@@ -418,10 +419,19 @@ hr{
 }
 .footer_secondary{
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: 500;
     font-size: 0.9rem;
+}
+.blog_Topto{
+    font-size: 2rem;
+    padding: 3rem;
+    color: rgb(205, 205, 205);
+}
+.blog_Topto:hover{
+    cursor: pointer;
+    color: rgb(19, 177, 208);
 }
 @media screen and (max-width: 1200px){
     #nav{

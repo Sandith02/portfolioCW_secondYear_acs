@@ -207,6 +207,7 @@
         </div>
     </section>
     <div class="footer_secondary">
+        <i class="fa-solid fa-arrow-up blog_Topto" onclick="scrollToTop()"></i>
         <p>Copyright &#169; 2024 Sandith Sithmaka. All Right Reserved</p>
     </div>    
     <script>
@@ -215,6 +216,12 @@
         const icon  = document.querySelector(".secondary-menu-icon");
         menu.classList.toggle("open");
         icon.classList.toggle("open");
+    }
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     }
     </script>
 </body>
