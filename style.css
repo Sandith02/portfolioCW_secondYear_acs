@@ -498,7 +498,7 @@ hr{
         align-items: center;    
     }
     #about .section_pic-container {
-        padding-inline: 1rem;
+        display: flex;
         height: 50vh;
         width: 50vw;  
         justify-content: center;
