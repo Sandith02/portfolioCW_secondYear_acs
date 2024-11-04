@@ -35,7 +35,7 @@ a:hover{
     text-decoration: underline;
     text-decoration-thickness: 0.1rem;
     text-underline-offset: 0.5rem;
-    text-decoration-color: rgb(95, 95, 95);
+    text-decoration-color: rgb(79, 79, 79);
 }
 .logo{
     font-size: 1.3rem;
@@ -71,6 +71,11 @@ a:hover{
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
+}
+.menu-items li:last-child:hover a{
+    font-weight: 900;
+    color: rgb(184, 0, 126);
+    text-decoration: none;
 }
 .menu-items li{
     list-style: none
@@ -284,6 +289,10 @@ footer{
 footer p{
     text-align: center;
 }
+footer p::after {
+    content: "®️";
+    color:  rgb(0, 0, 0);
+}
 .contact-container{
     height:70vh;
     display: flex;
@@ -329,7 +338,13 @@ hr{
     border-radius: 20px;
 }
 .contact-inputs:focus{
-    border: 2px solid rgb(184, 0, 126) ;
+    border: 2px solid ;
+}
+.contact-inputs:valid{
+    border-color: green;
+}
+.contact-inputs:invalid{
+    border-color: rgb(184, 0, 126);
 }
 .contact-inputs::placeholder{
     color: rgb(183, 183, 183);
@@ -423,6 +438,10 @@ hr{
     margin-bottom: 1rem;
     font-weight: 500;
     font-size: 0.9rem;
+}
+.footer_secondary p::after {
+    content: "®️";
+    color:  rgb(0, 0, 0);
 }
 .blog_Topto{
     font-size: 2rem;
