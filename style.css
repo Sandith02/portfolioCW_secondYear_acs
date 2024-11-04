@@ -567,5 +567,11 @@ hr{
     footer p{
         font-size: 0.7rem;
     }
+    .contact-right {
+        display: none;
+    }
+    .contact-inputs{
+        width: 80vw;
+    }
     
 }        
