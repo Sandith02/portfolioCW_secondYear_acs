@@ -530,22 +530,20 @@ hr{
         margin-top: 0.1rem;
     }
     #contact{
-        height: 80vh;
         margin: 0;
-        margin-top: -6rem;
+        margin-top: -15rem;
     }
     #contact .title{
         font-size: 1.85rem;
-        margin-bottom: 5rem;
     }
     #contact .section_text_p2{
         font-size: 1rem;
     }
     .contact-info-main-container{
         flex-wrap: wrap;
-        width: 350px;
         box-shadow: none;
         color: white;
+        margin-bottom: -10rem;
     }
     .contact-info-container{
         align-items: center;
