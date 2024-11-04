@@ -441,7 +441,7 @@ hr{
         display: flex;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .logo{
         font-size: 1rem;
     }
