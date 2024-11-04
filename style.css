@@ -460,17 +460,16 @@ hr{
     }
     #profile .section_text{
         margin-top: -3rem;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     #profile .title{
-        font-size: 1.85rem;
+        font-size: 1.865rem;
     }
     #profile .section_text_p2{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     #about{
         margin: 0;
-        height: 160vh;
     }
     #about .section-container{
         align-items: center;
@@ -495,12 +494,13 @@ hr{
         padding-inline: 1rem;
     }
     #about .text-container{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-weight: 300;
         padding-inline: 1rem;
     }
     #blogs{
         margin: 0;
+        margin-top: 29rem;
     }
     #blogs .about-container {
         flex-wrap: wrap;
@@ -512,17 +512,40 @@ hr{
     #blogs .section_text_p2{
         font-size: 1rem;
     }
-    #contact{
-        margin: 0;
-    }
     #newsletter{
         margin: 0;
+        margin-top: 1rem;
+    }
+    #newsletter .title{
+        font-size: 1.85rem;
+        margin-bottom: 2.5rem;
+    }
+    #newsletter .section_text_p2{
+        font-size: 1rem;
     }
     #newsletter .details{
-        font-size: 0.5rem;
+        font-size: 0.9rem;
+    }
+    #newsletter h2{
+        margin-top: 0.1rem;
+    }
+    #contact{
+        height: 80vh;
+        margin: 0;
+        margin-top: -6rem;
+    }
+    #contact .title{
+        font-size: 1.85rem;
+        margin-bottom: 5rem;
+    }
+    #contact .section_text_p2{
+        font-size: 1rem;
     }
     .contact-info-main-container{
         flex-wrap: wrap;
+        width: 350px;
+        box-shadow: none;
+        color: white;
     }
     .contact-info-container{
         align-items: center;
@@ -539,4 +562,11 @@ hr{
     #newsletter .icon-arrow {
         display: none;
     }
+    footer .nav-items{
+        font-size: 0.9rem;
+    }
+    footer p{
+        font-size: 0.7rem;
+    }
+    
 }        
