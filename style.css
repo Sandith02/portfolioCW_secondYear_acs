@@ -573,5 +573,7 @@ hr{
     .contact-inputs{
         width: 80vw;
     }
-    
+    #newsletterPage{
+        height: 80vh;
+    }
 }        
