@@ -640,4 +640,7 @@ hr{
     code{
         font-size: 0.6rem;
     }
+    .secondary-menu .menu-items{
+        background-color: transparent;
+    }
 }    
