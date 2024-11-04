@@ -498,9 +498,8 @@ hr{
         align-items: center;    
     }
     #about .section_pic-container {
-        display: flex;
         height: 50vh;
-        width: 50vw;  
+        width: 30vw;  
         justify-content: center;
     }
     
