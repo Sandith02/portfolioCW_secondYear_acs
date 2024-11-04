@@ -473,13 +473,13 @@ hr{
         margin: 0;
     }
     #about .section-container{
+        align-items: center;
         flex-wrap: wrap;
         margin-top: 2rem;
     }
     #about .section_pic-container{
-        margin: 10%;
-        height: 45vh;
-        width: 45vw;
+        height: 350px;
+        justify-content: center;
     }
     #about .section_text_p1{
         font-size: 0.8rem;
