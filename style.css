@@ -577,7 +577,10 @@ hr{
         margin-top: -2rem;
     }
     .footer_secondary p{
-        margin-top: -8rem;
         font-size: 0.7rem;
+    }
+    #newsletterPage{
+        margin: 0;
+        height: 80vh;
     }
 }        
