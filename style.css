@@ -473,7 +473,6 @@ hr{
         margin: 0;
     }
     #about .section-container{
-        align-items: center;
         flex-wrap: wrap;
         margin-top: 2rem;
     }
