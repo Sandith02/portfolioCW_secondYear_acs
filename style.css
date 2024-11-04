@@ -583,4 +583,27 @@ hr{
         margin: 0;
         height: 83vh;
     }
+    #blogPage{
+        height: 80vh;
+        margin: 0;
+    }
+    #blogPage h1{
+        margin-top: 7rem;
+        font-size: 5rem;
+    }
+    #blogPage p{
+        font-size: 0.6rem;
+    }
+    #blogPage .blogPage_diveBtn{
+        margin-top: 5rem;
+    }
+    #blogOne{
+        margin: 0;
+    }
+    #blogTwo{
+        margin: 0;
+    }
+    #blogThree{
+        margin: 0;
+    }
 }        
