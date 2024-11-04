@@ -584,7 +584,7 @@ hr{
         height: 83vh;
     }
     #blogPage{
-        height: 80vh;
+        height: 83vh;
         margin: 0;
     }
     #blogPage h1{
@@ -598,12 +598,27 @@ hr{
         margin-top: 5rem;
     }
     #blogOne{
+        padding-inline: 1rem;
         margin: 0;
     }
     #blogTwo{
+        padding-inline: 1rem;
         margin: 0;
     }
     #blogThree{
+        padding-inline: 1rem;
         margin: 0;
     }
-}        
+    .blogPage_details_title{
+        font-size: 1.15rem;
+    }
+    .blogPage_details_subtitles{
+        font-size: 0.95rem;
+    }
+    .blogPage_details{
+        font-size: 0.75rem;
+    }
+    code{
+        font-size: 0.6rem;
+    }
+}    
