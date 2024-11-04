@@ -574,6 +574,12 @@ hr{
         width: 80vw;
     }
     #newsletterPage{
-        height: 80vh;
+        height: 50vh;
+    }
+    #newsletterPage .title{
+        margin-top: -2rem;
+    }
+    .footer_secondary p{
+        font-size: 0.7rem;
     }
 }        
