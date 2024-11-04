@@ -477,6 +477,7 @@ hr{
         margin-top: 2rem;
     }
     #about .section_pic-container{
+        margin: 10%;
         height: 45vh;
         width: 45vw;
     }
