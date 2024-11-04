@@ -573,13 +573,11 @@ hr{
     .contact-inputs{
         width: 80vw;
     }
-    #newsletterPage{
-        height: 30vh;
-    }
     #newsletterPage .title{
         margin-top: -2rem;
     }
     .footer_secondary p{
+        margin-top: -8rem;
         font-size: 0.7rem;
     }
 }        
